@@ -3,24 +3,33 @@
 
 # Laravel with Windmill dashboard
 ### laravel application with ready admin panel 
-#### - no need for wasting time for adding an admin template in your laravel application </br> clone or download this repo, and folow the install istruction
-#### - it use tailwindcss with alphin.js
-#### - dark/light theme
+ - no need for wasting time for adding an admin template in your laravel application, </br> clone or download this repo, and folow the install istruction
+ - it use tailwindcss with alphin.js
+ - dark/light theme
+ - ready authentication(laravel/breeze) system out of box
 
 
 
-## How To Use the Repository
+---
 
-- clone the project
-- create a file with name .env
-- copy content of .env.example to .env
-- set up your database connection in .env
-- run $composer insatll
-- run $php artisan migrate --seed (note --seed will fill the database with dummy data)
-- your are good to go 😊
+## Usage
 
+1. clone the project `git clone https://github.com/abdulbasit-dev/laravel-windmill-dashboard.git`
+2. create a file with name .env `touch .env`
+3. copy content of .env.example to .env
+4. set up your database connection in .env
+5. run `composer insatll`
+6. run `php artisan migrate --seed` (note --seed will fill the database with dummy data)
+7.  your are good to go 😊
+
+---
+
+## Images
+
+<li>dark theme</li>
 <img src="./public/assets/img/dark.png" alt ='dark them'>
 <br>
+<li>light theme</li>
 <img src="./public/assets/img/light.png" alt ='light them'>
 
 
