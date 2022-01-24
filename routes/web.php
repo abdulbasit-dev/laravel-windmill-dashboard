@@ -18,7 +18,7 @@ Route::view('/', 'welcome');
 
 
 //dashboard routes
-Route::group(['middleware' => ['auth'], 'prefix' => 'dashboad', 'as' => 'admin.'], function () {
+Route::group(['middleware' => ['auth'], 'prefix' => 'dashboard', 'as' => 'admin.'], function () {
     //single action controllers
     Route::get('/', HomeController::class)->name('home');
 
