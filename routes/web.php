@@ -13,8 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::redirect('/', '/dashboard');
+Route::view('/', 'welcome');
 
+
+//dashboard routes
+
+Route::group(['middleware'=>['auth'],'prefix'=>'dashboad','as'=>'admin'],function(){
+
+});
 Route::get('/dashboard', function () {
     return view('admin.index');
 })->middleware(['auth'])->name('dashboard');
