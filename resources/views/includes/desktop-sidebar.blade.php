@@ -5,7 +5,7 @@
     <div class="py-4 text-gray-500 dark:text-gray-400">
         <a
                 class="ml-6 text-lg font-bold text-gray-800 dark:text-gray-200"
-                href="#"
+                href="{{ route('admin.home')}}"
         >
             Windmill
         </a>
@@ -17,7 +17,7 @@
               ></span>
                 <a
                         class="inline-flex items-center w-full text-sm font-semibold text-gray-800 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200 dark:text-gray-100"
-                        href="index.blade.php"
+                        href="{{ route('admin.home')}}"
                 >
                     <svg
                             class="w-5 h-5"
@@ -41,7 +41,7 @@
             <li class="relative px-6 py-3">
                 <a
                         class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
-                        href="forms.html"
+                        href="{{ route('admin.forms') }}"
                 >
                     <svg
                             class="w-5 h-5"
@@ -63,7 +63,7 @@
             <li class="relative px-6 py-3">
                 <a
                         class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
-                        href="cards.html"
+                        href="{{ route('admin.cards') }}"
                 >
                     <svg
                             class="w-5 h-5"
@@ -85,7 +85,7 @@
             <li class="relative px-6 py-3">
                 <a
                         class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
-                        href="charts.html"
+                        href="{{ route('admin.charts') }}"
                 >
                     <svg
                             class="w-5 h-5"
@@ -108,7 +108,7 @@
             <li class="relative px-6 py-3">
                 <a
                         class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
-                        href="buttons.html"
+                        href="{{ route('admin.buttons') }}"
                 >
                     <svg
                             class="w-5 h-5"
@@ -130,7 +130,7 @@
             <li class="relative px-6 py-3">
                 <a
                         class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
-                        href="modals.html"
+                        href="{{ route('admin.modals') }}"
                 >
                     <svg
                             class="w-5 h-5"
@@ -152,7 +152,7 @@
             <li class="relative px-6 py-3">
                 <a
                         class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
-                        href="tables.html"
+                        href="{{ route('admin.tables') }}"
                 >
                     <svg
                             class="w-5 h-5"
@@ -219,31 +219,31 @@
                         <li
                                 class="px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
                         >
-                            <a class="w-full" href="pages/login.html">Login</a>
+                            <a class="w-full" href="{{ route('admin.page.login') }}">Login</a>
                         </li>
                         <li
                                 class="px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
                         >
-                            <a class="w-full" href="pages/create-account.html">
+                            <a class="w-full" href="{{ route('admin.page.create-account') }}">
                                 Create account
                             </a>
                         </li>
                         <li
                                 class="px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
                         >
-                            <a class="w-full" href="pages/forgot-password.html">
+                            <a class="w-full" href="{{ route('admin.page.forgot-password') }}">
                                 Forgot password
                             </a>
                         </li>
                         <li
                                 class="px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
                         >
-                            <a class="w-full" href="pages/404.html">404</a>
+                            <a class="w-full" href="{{ route('admin.page.404') }}">404</a>
                         </li>
                         <li
                                 class="px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
                         >
-                            <a class="w-full" href="pages/blank.html">Blank</a>
+                            <a class="w-full" href="{{ route('admin.page.blank') }}">Blank</a>
                         </li>
                     </ul>
                 </template>
