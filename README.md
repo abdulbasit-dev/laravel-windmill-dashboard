@@ -33,5 +33,9 @@
 <li>light theme</li>
 <img src="./public/assets/img/light.png" alt ='light them'>
 
+## Contributing
+
+Feel free to contribute to the project by submitting issues or creating pull requests. Your feedback and suggestions are always welcome!
+
 
 
